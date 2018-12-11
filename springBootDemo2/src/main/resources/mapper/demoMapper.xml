@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+    "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.comtop.demo.springBootDemo.dao.demo.DemoDao">
+<select id="getAll" resultType="map">
+	select * from nihao
+</select>
+
+<select id="getObject" resultType="testEntity">
+	select * from nihao where ssss='111'
+</select>
+</mapper>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/threadproject/src/main/java/com/comtop/demo/springBootDemo/shili/factoryAbstract" element2="/threadproject/src/main/java/com/comtop/demo/springBootDemo/shili/factoryPattern" element3="/threadproject/src/main/java/com/comtop/demo/springBootDemo/shili/factoryPolymorphic" element4="/threadproject/src/main/java/com/comtop/demo/springBootDemo/shili/singletonPattern" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1544499987136"/>
+</session>
