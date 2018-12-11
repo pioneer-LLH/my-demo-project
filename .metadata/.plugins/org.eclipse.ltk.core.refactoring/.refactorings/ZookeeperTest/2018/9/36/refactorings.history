@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;ZookeeperTest/src/bin&apos; to &apos;llh&apos;" description="Rename resource &apos;bin&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/bin" name="llh" stamp="1536286832097" updateReferences="true"/>
-</session>

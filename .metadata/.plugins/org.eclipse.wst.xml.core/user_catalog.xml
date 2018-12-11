@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <uri name="http://dubbo.apache.org/schema/dubbo/dubbo.xsd" uri="file:///D:/软件/谷歌/META-INF/dubbo.xsd"/>
-  <public publicId="mybatis-3-config" uri="file:///F:/study/DemoHub/dtdHub/xml/mybatis-3-config.dtd"/>
-  <public publicId="mybatis-3-mapper" uri="file:///F:/study/DemoHub/dtdHub/xml/mybatis-3-mapper.dtd"/>
-</catalog>
