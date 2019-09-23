@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.comtop.demo.springBootDemo.entity.testEntity;
 import com.comtop.demo.springBootDemo.service.DemoService;
 import com.comtop.demo.springBootDemo.util.ExceptionUtil;
-
+//这是一个测试
 @RestController
 @RequestMapping("/demoController")
 public class DemoController {
@@ -43,12 +43,12 @@ public class DemoController {
 	}
 	
 	@RequestMapping("/test2")
-	public Map<String, Object> test1(Model model) {
+	public Map<String, Object> test2() {
 		System.out.println("访问数据2");
 		Map<String, Object> map=new HashMap<String, Object>();
-		testEntity r=new testEntity();
-		r=(testEntity)demoService.getObject(testEntity.class);
-		map.put("obj", r);
+		testEntity test=new testEntity();
+		test=(testEntity)demoService.getObject(testEntity.class);
+		map.put("obj", test);
 		return map;
 	}
 }
