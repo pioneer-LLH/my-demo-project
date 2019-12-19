@@ -24,7 +24,7 @@ public class Sendmail {
             simpleEmail.addTo("1260991448@qq.com");//收件人邮箱
             simpleEmail.addCc("guojiadashi@163.com");//抄送:报错554时，排除低俗信息，抄送自己可解决
             //邮件内容
-            simpleEmail.setSubject("测试3");//标题
+            simpleEmail.setSubject("我为什么要借你钱");//标题
             simpleEmail.setMsg("hello world");//正文
             simpleEmail.setCharset("utf-8");//编码格式
             simpleEmail.setSentDate(new Date());//发送时间
@@ -62,7 +62,9 @@ public class Sendmail {
             emailAttachment.setDescription(EmailAttachment.ATTACHMENT);
             emailAttachment.setName("test.txt");//邮箱显示文件名
 
-            //加载到邮件中
+
+
+            //加载到邮件中,可添加多个emailAttachment但前提是对象不同
             multiPartEmail.attach(emailAttachment);
             //发送时间
             multiPartEmail.setSentDate(new Date());
@@ -75,7 +77,7 @@ public class Sendmail {
         }
     }
     public static void main(String[] args) {
-        new Sendmail().sendAccessory();
+         Sendmail.send();
     }
 }
 

@@ -8,6 +8,6 @@
 </select>
 
 <select id="getObject" resultType="testEntity">
-	select * from nihao where ssss='111'
+	SELECT * FROM user limit 0,1
 </select>
 </mapper>

@@ -1,26 +1,56 @@
 package com.comtop.demo.springBootDemo.entity;
 
 public class testEntity {
-	
-private String ssss;
-private String dddd;
-private String wwww;
-public String getSsss() {
-	return ssss;
-}
-public void setSsss(String ssss) {
-	this.ssss = ssss;
-}
-public String getDddd() {
-	return dddd;
-}
-public void setDddd(String dddd) {
-	this.dddd = dddd;
-}
-public String getWwww() {
-	return wwww;
-}
-public void setWwww(String wwww) {
-	this.wwww = wwww;
-}
+	/**
+	 * 姓名
+	 */
+	private String name;
+	/**
+	 * 年龄
+	 */
+	private String age;
+	/**
+	 * 性别
+	 */
+	private String sex;
+	/**
+	 * 爱好
+	 */
+	private String hobby;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	public String getHobby() {
+		return hobby;
+	}
+
+	public void setHobby(String hobby) {
+		this.hobby = hobby;
+	}
+
+
+
+
 }

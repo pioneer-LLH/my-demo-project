@@ -14,8 +14,8 @@
 <script type="text/javascript">
 	$(function(){
 		alert("ss");
-		$.post("${pageContext.request.contextPath }/demoController/test2",function(result){
-			$("p").html(result.obj.ssss);
+		$.post("${pageContext.request.contextPath}/demoController/test2",function(result){
+			$("p").html(result.obj.name);
 		})
 	});
 </script>
